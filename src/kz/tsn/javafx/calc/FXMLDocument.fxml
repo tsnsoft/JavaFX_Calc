@@ -7,7 +7,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="288.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="288.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kz.tsn.javafx.calc.FXMLDocumentController">
     <children>
       <Button fx:id="button_Math" layoutX="54.0" layoutY="208.0" mnemonicParsing="false" onAction="#buttonMathAction" prefHeight="26.0" prefWidth="149.0" text="Решить" />
       <Button fx:id="button_Clear" layoutX="268.0" layoutY="208.0" mnemonicParsing="false" onAction="#buttonClearAction" prefHeight="26.0" prefWidth="149.0" text="Очистить" />
@@ -23,7 +23,7 @@
       <TextField fx:id="textField_D" layoutX="54.0" layoutY="156.0" prefHeight="26.0" prefWidth="150.0" />
       <ImageView fitHeight="134.0" fitWidth="387.0" layoutX="236.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../image/formula.png" />
+            <Image url="@../../../../image/formula.png" />
          </image>
       </ImageView>
     </children>

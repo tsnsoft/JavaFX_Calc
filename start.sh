@@ -1,0 +1,1 @@
+java --module-path /opt/dev/javafx/lib --add-modules javafx.controls,javafx.fxml -jar ./dist/TSN_JavaFX_Calc.jar
