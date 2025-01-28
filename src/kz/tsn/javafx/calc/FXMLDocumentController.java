@@ -65,10 +65,8 @@ public class FXMLDocumentController implements Initializable {
         }
         if (x < 6) {
             y = (((a + b) * (a + b)) / (x - 2));
-            //label_otvet.setText("Ответ: " + String.format("%.2f",y));
         } else {
             y = ((x * (d * d * d)) + (b * b));
-            //label_otvet.setText("Ответ: " + String.format("%.2f",y));
         }
         if (!(Double.isNaN(y)) && (!Double.isInfinite(y))) {
             label_otvet.setText("Ответ: " + String.format("%.2f", y));
